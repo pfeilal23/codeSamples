@@ -31,7 +31,6 @@ a.learnMore:hover{background: #fff; color: #00AEEF; border: 1px solid #00AEEF;}
 a.siteLinkButton{color: #fff;}
 .siteLinkButton:hover{background: #7A2D91;}
 
-
 /* ==== MEDIA QUERIES ==== */
 @media screen and (max-width : 1199px){
 .overlayText{transform:translateY(150%);}
