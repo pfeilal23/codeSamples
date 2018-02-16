@@ -1,0 +1,28 @@
+<head>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+<style>
+.video-thumbnail {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.video-thumbnail:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    content: "\f144";
+    font-family: FontAwesome;
+    font-size: 100px;
+    color: #fff;
+    opacity: .8;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+.video-thumbnail:hover:before {
+    color: #eee;
+}
+</style>
+<a class="video-thumbnail" href="https://www.youtube.com/watch?v=PBHPH8oEKnA&amp;rel=0" rel="wp-video-lightbox"><img class="alignnone size-full wp-image-1105228" src="https://fall-arrest.com/dev/wp-content/uploads/2017/11/FlexGuard-Lifeline.jpg" alt="FlexGuard-Lifeline"></a>
